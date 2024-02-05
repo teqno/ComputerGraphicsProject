@@ -1,2 +1,7 @@
 ﻿  Main.cpp
+  VAO.cpp
+  VBO.cpp
+  shaderClass.cpp
+  Generating Code...
+C:\work\repos\pc\cpp\ComputerGraphicsProject\shaderClass.cpp(15): warning C4715: 'get_file_contents': not all control paths return a value
   ComputerGraphicsProject.vcxproj -> C:\work\repos\pc\cpp\ComputerGraphicsProject\x64\Debug\ComputerGraphicsProject.exe
