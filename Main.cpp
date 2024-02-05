@@ -73,12 +73,16 @@ int main() {
 	VBO1.Unbind();
 	EBO1.Unbind();
 
+	GLuint uniID = glGetUniformLocation(shaderProgram.ID, "scale");
+
+
 	// Main while loop
 	while (!glfwWindowShouldClose(window)) {
 		glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 		// Tell OpenGL which shader program we want to use
 		shaderProgram.Activate();
+		glUniform1f(uniID, 0.5f);
 		// Bind VAO for OpenGL to use it
 		VAO1.Bind();
 		// Draw the triangles using the GL_TRIANGLES primitive
