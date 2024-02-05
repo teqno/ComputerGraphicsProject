@@ -4,10 +4,10 @@ VAO::VAO() {
 	glGenVertexArrays(1, &ID);
 }
 
-void VAO::LinkVBO(VBO VBO, GLuint layout) {
+void VAO::LinkAttrib(VBO VBO, GLuint layout, GLuint numComponents, GLenum type, GLsizei stride, void* offset) {
 	VBO.Bind();
 	// Configure the Vertex Attribute so OpenGL knows how to read the VBO
-	glVertexAttribPointer(layout, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
+	glVertexAttribPointer(layout, numComponents, type, GL_FALSE, stride, offset);
 	// Enable the Vertex Attribute for OpenGL to use it
 	glEnableVertexAttribArray(layout);
 	VBO.Unbind();
