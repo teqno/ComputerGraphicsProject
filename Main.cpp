@@ -7,7 +7,7 @@
 #include <glm/gtc/type_ptr.hpp>
 
 #include "Texture.h"
-#include "shaderClass.h"
+#include "Shader.h"
 #include "VAO.h"
 #include "VBO.h"
 #include "EBO.h"
