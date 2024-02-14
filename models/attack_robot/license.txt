@@ -1,0 +1,11 @@
+Model Information:
+* title:	Attack Robot
+* source:	https://sketchfab.com/3d-models/attack-robot-4cae2b923b42418c8d07d2b7c8fd4191
+* author:	yankobe (https://sketchfab.com/yankobe.do)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Attack Robot" (https://sketchfab.com/3d-models/attack-robot-4cae2b923b42418c8d07d2b7c8fd4191) by yankobe (https://sketchfab.com/yankobe.do) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
